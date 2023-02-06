@@ -38,8 +38,8 @@ public class Journal
         {
             string[] parts = line.Split("|");
 
-            string loadEntry = parts[0];
-            _entriesList.Add(loadEntry);
+            string _loadEntry = parts[0];
+            _entriesList.Add(_loadEntry);
         } 
     }
 }
